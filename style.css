@@ -1,0 +1,140 @@
+html,body{
+    margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
+    padding: 0;
+    color: black; font-size: 10pt; font-family: "Trebuchet MS", sans-serif;
+    box-sizing:border-box;
+}
+
+.hero-wrapper{
+    background: #fceef1;
+    padding: 50px 100px 0px 100px; 
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.common-button{
+    background: #e55473;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.hero-right{
+   
+}
+.hero-right img{
+    height:400px;
+}
+
+main{
+    margin: 0 100px 0 100px;
+}
+
+.header-text{
+   text-align:center;
+}
+.card-container{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    margin-top: 40px;
+    
+}
+.card-container img{
+    height:300px
+}
+.featured-card{
+    text-align:center;
+    width:100%
+}
+
+.featured-card .image-container{
+    border-radius: 50% 50% 0px 0px;
+    
+    padding: 50px 40px 0 40px;
+}
+.first-image{
+    background: #f1dde7;
+}
+.second-image{
+    background: #d9eff0;
+}
+.third-image{
+    background: #e3ebdb;
+}
+.featured-caption{
+    text-align:center;  
+}
+
+.featured-caption a{
+    color: #000
+}
+
+.hot-deal-wrapper{
+    display:flex;
+    justify-content: center;
+    gap:100px;
+    background:#fdf6f8;
+    border-radius:5px;
+    align-items: center;
+    padding:75px 0px;
+}
+
+.wrapper{
+    margin-bottom:75px;
+}
+
+.latest-deal-wrapper{
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    height: 400px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire containe*/
+    
+}
+.subscribe-section{
+    padding-top:150px;
+}
+.contact-us-wrapper{
+    background: #fdf6f8;
+    padding:30px 0px;
+}
+.email, .text, .password{
+    padding:10px 20px;
+    border:0px;
+    border-radius:5px;
+}
+
+.input-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+    margin-bottom:20px
+}
+
+
+footer{
+    padding:50px 0px;
+    background:#000;
+    color: #fff
+}
+
+.flower{
+    color: #e55473;
+}
+
+.description{
+    color:#999
+}
+.copyright{
+    color:#5a5a5a;
+}
+
+.sub-header{
+    color:#999
+}
